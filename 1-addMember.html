@@ -408,6 +408,8 @@
         
         userPhoneNumberForUsingCoupon = data[3];
         
+        userLineId = data[6];
+        
         // 尋找未使用的優惠券
         var myCouponsNumbers = [];
         couponMember.forEach(function(item, index, array) {
@@ -709,7 +711,7 @@
           if (coupon[0]==couponName) {
             //console.log(couponName);
             couponIdx = index;
-            coupon.push([userForAddingCoupon, "已使用", "未確認", "", userPhoneNumberForUsingCoupon]);
+            coupon.push([userForAddingCoupon, "已使用", "未確認", userLineId, userPhoneNumberForUsingCoupon]);
           }
         }) 
         

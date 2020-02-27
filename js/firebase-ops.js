@@ -1,6 +1,10 @@
 // Cloudinary post URL
-var cloudinaryPostUrl = "https://api.cloudinary.com/v1_1/beida-ugym/image/upload";
-var presetName = "llftctau"
+//var cloudinaryPostUrl = "https://api.cloudinary.com/v1_1/beida-ugym/image/upload";
+//var presetName = "llftctau"
+
+// 改為 Cloudinary beida-coupon 帳號
+var cloudinaryPostUrl = "https://api.cloudinary.com/v1_1/beida-coupon/image/upload";
+var presetName = "ntb4ppf4"
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
