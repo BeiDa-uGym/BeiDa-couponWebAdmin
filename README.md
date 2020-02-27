@@ -1,1 +1,1 @@
-# BeiDa-couponWebAdmin2
+# couponWebAdmin2
