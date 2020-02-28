@@ -77,11 +77,10 @@ function couponConfirm() {
     // 更新 local couponData 及 couponMember
     couponData.push(dataToAdd);
     couponMember.push(["C" + zeroFill(couponNum, 4)]); //Fix bug:重複週期 新增優惠券 會只有增加最後一個優惠券 到 couponMember
-    
-    securePicUrl=""
+        
   }
   
-
+  securePicUrl="";
 
   // 優惠券寫入資料庫
   database.ref('users/三峽運動中心/優惠券').set({
